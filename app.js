@@ -1,4 +1,4 @@
-alert("Welcome Mrs. Wolfe");
+// alert("Welcome Mrs. Wolfe");
 
 
 // WITH AN IF ELSE STATEMENT
@@ -11,11 +11,11 @@ alert("Welcome Mrs. Wolfe");
 // $(".userName").innerText = "yourName";
 
 
-//& r.w access
-// var access = prompt("你好吗？")；
+// & r.w access
+var access = prompt("你好吗？");
 
-// if(access == "happy"){ 
-//     window.location.href="/content/main.html"
-// } else {
-//     window.location.href="/denied.html"
-// }
+if(access == "happy"){ 
+    window.location.href="/content/main.html"
+} else {
+    window.location.href="/denied.html"
+};
