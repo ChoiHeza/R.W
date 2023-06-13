@@ -50,12 +50,18 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(4, 1fr);
-    grid-column-gap: 30px;
-    grid-row-gap: 30px;
+    grid-column-gap: 80px;
+    grid-row-gap: 50px;
+    width: 60%;
+    margin: auto;
 }
 
 a {
-    background-color: red;
+    background-color: rgb(224, 214, 200);
     padding: 10px;
     text-align: center;
+    color: rgb(50, 5, 16);
+    text-decoration: none;
+    border-radius: 10px;
+    border: 3px rgb(50, 5, 16) solid;
 }
