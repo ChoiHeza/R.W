@@ -46,14 +46,17 @@
     isolation: isolate;
   }
 
-  html { 
-    background: url(/assets/images/Ocean\ Drive\ Miami.png) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
 
+  /*~ PAGE BACKGROUND  */
+html { 
+  background: url(/assets/images/Ocean\ Drive\ Miami.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+  /*~ BUTTON LAYOUT */
 .parts {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -64,6 +67,7 @@
     margin: auto;
 }
 
+/*~ BUTTON STLYE */
 a {
     background-color: rgb(224, 214, 200);
     padding: 10px;
@@ -81,7 +85,11 @@ a:hover {
   border-radius: 5px;
 }
 
+/*~ STORY CONTENT STYLE */
 
+
+
+/*~ MOBILE (S8+) */
 @media screen and (max-width: 360px) {
   .parts {
     display: grid;
