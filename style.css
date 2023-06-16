@@ -97,6 +97,12 @@ a:hover {
   color: rgb(87, 34, 48);
 }
 
+hr {
+  background-color: rgb(87, 34, 48);
+  height: 0.1rem;
+  border: none;
+}
+
 
 /*~ MOBILE (S8+) */
 @media screen and (max-width: 360px) {
