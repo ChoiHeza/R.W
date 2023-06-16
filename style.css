@@ -64,13 +64,6 @@
     margin: auto;
 }
 
-@media screen and (max-width: 360px) {
-  .chapters {
-    display: grid;
-    grid-template-columns: auto;
-  }
-}
-
 a {
     background-color: rgb(224, 214, 200);
     padding: 10px;
@@ -79,4 +72,24 @@ a {
     text-decoration: none;
     border-radius: 10px;
     border: 3px rgb(87, 34, 48) solid;
+}
+
+a:hover {
+  background-color: rgb(87, 34, 48);
+  color: rgb(224, 214, 200);
+  border-radius: 5px;
+}
+
+
+@media screen and (max-width: 360px) {
+  .chapters {
+    display: grid;
+    grid-template-columns: auto;
+  }
+
+  a:active {
+    background-color: rgb(87, 34, 48);
+    color: rgb(224, 214, 200);
+    border-radius: 5px;
+  }
 }
