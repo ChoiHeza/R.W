@@ -86,7 +86,16 @@ a:hover {
 }
 
 /*~ STORY CONTENT STYLE */
+.content {
+  background-color: rgb(224, 214, 200);
+  padding: 20px;
+}
 
+.story {
+  font-size: 1.5rem;
+  line-height: 1.5em;
+  color: rgb(87, 34, 48);
+}
 
 
 /*~ MOBILE (S8+) */
@@ -100,5 +109,14 @@ a:hover {
     background-color: rgb(87, 34, 48);
     color: rgb(224, 214, 200);
     border-radius: 5px;
+  }
+
+  .content {
+    padding: 10px;
+    
+  }
+
+  .story {
+    font-size: 1.3rem;
   }
 }
