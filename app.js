@@ -17,5 +17,5 @@ var access = prompt("你好吗？");
 if(access == "happy"){ 
     window.location.href="/content/main.html"
 } else {
-    window.location.href="/denied.html"
+    window.location.href="/content/denied.html"
 };
