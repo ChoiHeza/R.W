@@ -1,5 +1,8 @@
- - add hover effect to links
+ - add hover effect to links//
  - add background image //
- - maybe change colours to match background
- - designed page till satified
+ - maybe change colours to match background//
+ - designed page till satified//
  - make it mobile friendly //
+ - set up links for first chpt
+ - add html files for 1st chpt stories
+ - add stories for first chpt
