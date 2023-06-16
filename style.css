@@ -46,6 +46,14 @@
     isolation: isolate;
   }
 
+  html { 
+    background: url(/assets/images/Ocean\ Drive\ Miami.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
 .chapters {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -55,6 +63,8 @@
     width: 60%;
     margin: auto;
 }
+
+
 
 a {
     background-color: rgb(224, 214, 200);
