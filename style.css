@@ -64,7 +64,12 @@
     margin: auto;
 }
 
-
+@media screen and (max-width: 360px) {
+  .chapters {
+    display: grid;
+    grid-template-columns: auto;
+  }
+}
 
 a {
     background-color: rgb(224, 214, 200);

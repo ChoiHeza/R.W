@@ -1,5 +1,5 @@
  - add hover effect to links
- - add background image
+ - add background image //
  - maybe change colours to match background
  - designed page till satified
- - make it mobile friendly
+ - make it mobile friendly //
