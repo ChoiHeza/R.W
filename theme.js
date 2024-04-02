@@ -67,5 +67,8 @@ function turnNight() {
   document.querySelectorAll("button")[1].style.borderColor = "white";
 
   // content background colour
-  document.getElementById("content-story").style.backgroundColor = "#1f475e";
+  document.getElementById("content-story").style.backgroundColor = "#1f515e";
+
+  // story font colour
+  document.querySelectorAll("button")[0].style.color = "#cce5e0";
 }
