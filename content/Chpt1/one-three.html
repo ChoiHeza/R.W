@@ -1,26 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
     <title>1.3 Hell Night</title>
-</head>
-<body>
-    <div class="content">
-        <p class="outfit">Outfit: Black jacket, navy blue t-shirt and black jeans</p>
-        <br>
-        <hr>
-        <br>
-        <p class="story">
-            It was Halloween night, both you and Ryan were having a scary movie marathon and The Nun was currently showing. You were cuddled into Ryan's side hiding once and a while from the movie because it was indeed very scary. There was at least 30 minutes left in the movie when Ryan got a call, leaning forward and taking the phone from the coffee table he answered it while you paused the movie "CSI Wolfe." he said into the phone and a smile overcame your face at hearing his title so you watched him as he talked on the phone feeling very proud "Okay, I'll be there." he said then hung up, he turned to you and gave an apologetic smile "I'm sorry, but I just got called in to work." you laughed a bit at him "Ryan, no need to give me that look, it's okay, really." you told him holding his hand "You sure?" he asked just to be sure so you gave him a big grin "Yes Ryan, I am sure, plus it is super cool to be dating a CSI, that has to be whisked away to investigate a crime scene." you reassured him "Okay then." he said with a chuckle and then proceeded to get up "I'll go get ready." and you nodded turning back to the tv, changing the movie because there was no way you'll be watching this by yourself, so to keep to the Halloween theme, you put on Corpse's Bride. So getting cozy you got the blanket and wrapped it around you. Ten minutes later Ryan emerged from the bedroom, wearing a black jacket, t-shirt and pants. "What's with the all black?" Ryan looked down at his outfit then back to you "Wasn't even planned, just grabbed the first of everything." you shook your head and chuckled at that "Anyways I gotta go. Most likely will be back tomorrow afternoon, depending on how long the case goes on." he said approaching you, then leaning down to leave a tender kiss on your lips "Okay, be safe." "Always babe." with one more kiss then a peck to your forehead, he was gone.
-        </p><br>
-        <p class="story">
-            After watching the movie, you turned off the tv and turned in for the night, after making sure the door was locked. You slept pretty peaceful and woke up to a morning text from Ryan just checking in on you and letting you know they weren't near to the end of the case. It being your off day, you decided to deep clean the apartment before Ryan came in because you know the moment he enters, he's going to want to rest, so that's how you spent the day. You were finished cleaning and even managed to cook by three in the afternoon, so you were currently taking a shower, washing the hard work away. While in the shower you hadn't heard Ryan when he came in. Turning off the water and wrapping the towel around your body, you made your way to the bedroom and upon entering you jumped because you weren't expecting to see him there. You stopped in your tracks and clutched your chest "Ryan!" you exclaimed taken by surprise, he chuckled raising his hands to apologize "I'm so sorry babe, I didn’t mean to startle you." he approached giving your shoulders a rub calming you while giving you a greeting smile "Hi." you said with a laugh of your own after calming down which he returned "Hi, once again I'm sorry." you waved your hand to dismiss him and leaned up instead to place a kiss on his lips "Going to shower then sleep?" you asked resting back on your heels and he nodded his head "Along with eating something as well." "Okay, after I get dressed I'll heat up some food for you." "Thank you babe." he gave one more peck before heading off to shower.
-        </p><br>
-        <p class="story">
-            You got dressed and went to the kitchen to heat up dinner for Ryan so it would be ready for when he's finished. Resting the dish on the table and covering it over, you plopped yourself down on the sofa turning on the tv to watch Friends. Five minutes later Ryan came out and sat at the table to eat. "Thank you my love." "You are very welcome." "Ate already?" he asked you making you look back to him "Yeah because when I finish cooked I was starving so I ate one time." he nodded going back to his meal and you back to your show. After Ryan was finished, he washed his dish then plopped down onto the sofa laying his head in your lap "Sleep time?" you asked him and you just felt the nod of his head making you chuckle. He turned facing towards your stomach and made himself super comfortable "Won’t you prefer to go to bed one time?" he shook his head no "Not yet, this position is nice." he cuddled further into your stomach so you brought the blanket up to cover him "Well sweet dreams then my love." you leaned down placing a kiss on his temple and felt his breathing even. Ryan fell asleep pretty quickly, and you couldn't find it in your heart to move him, knowing how tired he was and how cute he looked so you stayed like that the majority of the evening into the night. Late that night you felt someone carrying your sleeping form, and you knew it was Ryan taking you to bed. He placed you down then got in beside you, pulling your body into his side, holding you close "Goodnight beautiful." with that you felt a kiss on your forehead but you were too out of it to reply and could only manage to hold him tighter responding with a satisfied hum. 
-        </p>
+  </head>
+  <body>
+    <div class="buttons">
+      <!-- day theme button -->
+      <button class="theme-button" type="button" onclick="turnDay()">
+        Day
+      </button>
+      <!-- night theme button -->
+      <button class="theme-button" type="button" onclick="turnNight()">
+        Night
+      </button>
     </div>
-</body>
+    <div id="content-story" class="content">
+      <p class="outfit">
+        Outfit: Black jacket, navy blue t-shirt and black jeans
+      </p>
+      <br />
+      <hr />
+      <br />
+      <p class="story">
+        It was Halloween night, both you and Ryan were having a scary movie
+        marathon and The Nun was currently showing. You were cuddled into Ryan's
+        side hiding once and a while from the movie because it was indeed very
+        scary. There was at least 30 minutes left in the movie when Ryan got a
+        call, leaning forward and taking the phone from the coffee table he
+        answered it while you paused the movie "CSI Wolfe." he said into the
+        phone and a smile overcame your face at hearing his title so you watched
+        him as he talked on the phone feeling very proud "Okay, I'll be there."
+        he said then hung up, he turned to you and gave an apologetic smile "I'm
+        sorry, but I just got called in to work." you laughed a bit at him
+        "Ryan, no need to give me that look, it's okay, really." you told him
+        holding his hand "You sure?" he asked just to be sure so you gave him a
+        big grin "Yes Ryan, I am sure, plus it is super cool to be dating a CSI,
+        that has to be whisked away to investigate a crime scene." you reassured
+        him "Okay then." he said with a chuckle and then proceeded to get up
+        "I'll go get ready." and you nodded turning back to the tv, changing the
+        movie because there was no way you'll be watching this by yourself, so
+        to keep to the Halloween theme, you put on Corpse's Bride. So getting
+        cozy you got the blanket and wrapped it around you. Ten minutes later
+        Ryan emerged from the bedroom, wearing a black jacket, t-shirt and
+        pants. "What's with the all black?" Ryan looked down at his outfit then
+        back to you "Wasn't even planned, just grabbed the first of everything."
+        you shook your head and chuckled at that "Anyways I gotta go. Most
+        likely will be back tomorrow afternoon, depending on how long the case
+        goes on." he said approaching you, then leaning down to leave a tender
+        kiss on your lips "Okay, be safe." "Always babe." with one more kiss
+        then a peck to your forehead, he was gone.
+      </p>
+      <br />
+      <p class="story">
+        After watching the movie, you turned off the tv and turned in for the
+        night, after making sure the door was locked. You slept pretty peaceful
+        and woke up to a morning text from Ryan just checking in on you and
+        letting you know they weren't near to the end of the case. It being your
+        off day, you decided to deep clean the apartment before Ryan came in
+        because you know the moment he enters, he's going to want to rest, so
+        that's how you spent the day. You were finished cleaning and even
+        managed to cook by three in the afternoon, so you were currently taking
+        a shower, washing the hard work away. While in the shower you hadn't
+        heard Ryan when he came in. Turning off the water and wrapping the towel
+        around your body, you made your way to the bedroom and upon entering you
+        jumped because you weren't expecting to see him there. You stopped in
+        your tracks and clutched your chest "Ryan!" you exclaimed taken by
+        surprise, he chuckled raising his hands to apologize "I'm so sorry babe,
+        I didn’t mean to startle you." he approached giving your shoulders a rub
+        calming you while giving you a greeting smile "Hi." you said with a
+        laugh of your own after calming down which he returned "Hi, once again
+        I'm sorry." you waved your hand to dismiss him and leaned up instead to
+        place a kiss on his lips "Going to shower then sleep?" you asked resting
+        back on your heels and he nodded his head "Along with eating something
+        as well." "Okay, after I get dressed I'll heat up some food for you."
+        "Thank you babe." he gave one more peck before heading off to shower.
+      </p>
+      <br />
+      <p class="story">
+        You got dressed and went to the kitchen to heat up dinner for Ryan so it
+        would be ready for when he's finished. Resting the dish on the table and
+        covering it over, you plopped yourself down on the sofa turning on the
+        tv to watch Friends. Five minutes later Ryan came out and sat at the
+        table to eat. "Thank you my love." "You are very welcome." "Ate
+        already?" he asked you making you look back to him "Yeah because when I
+        finish cooked I was starving so I ate one time." he nodded going back to
+        his meal and you back to your show. After Ryan was finished, he washed
+        his dish then plopped down onto the sofa laying his head in your lap
+        "Sleep time?" you asked him and you just felt the nod of his head making
+        you chuckle. He turned facing towards your stomach and made himself
+        super comfortable "Won’t you prefer to go to bed one time?" he shook his
+        head no "Not yet, this position is nice." he cuddled further into your
+        stomach so you brought the blanket up to cover him "Well sweet dreams
+        then my love." you leaned down placing a kiss on his temple and felt his
+        breathing even. Ryan fell asleep pretty quickly, and you couldn't find
+        it in your heart to move him, knowing how tired he was and how cute he
+        looked so you stayed like that the majority of the evening into the
+        night. Late that night you felt someone carrying your sleeping form, and
+        you knew it was Ryan taking you to bed. He placed you down then got in
+        beside you, pulling your body into his side, holding you close
+        "Goodnight beautiful." with that you felt a kiss on your forehead but
+        you were too out of it to reply and could only manage to hold him
+        tighter responding with a satisfied hum.
+      </p>
+    </div>
+    <script src="/theme.js"></script>
+  </body>
 </html>
