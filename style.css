@@ -123,6 +123,11 @@ a:hover {
   border-radius: 5px;
 }
 
+/*~ OUTFIT SECTION */
+.outfit {
+  color: rgb(147, 144, 145);
+}
+
 /*~ STORY CONTENT STYLE */
 .content {
   background-color: rgb(224, 214, 200);
@@ -136,7 +141,7 @@ a:hover {
 }
 
 hr {
-  background-color: rgb(87, 34, 48);
+  background-color: rgb(29, 14, 18);
   height: 0.1rem;
   border: none;
 }
