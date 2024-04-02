@@ -1,82 +1,104 @@
 /*
   1. Use a more-intuitive box-sizing model.
 */
-*, *::before, *::after {
-    box-sizing: border-box;
-  }
-  /*
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+/*
     2. Remove default margin
   */
-  * {
-    margin: 0;
-  }
-  /*
+* {
+  margin: 0;
+}
+/*
     Typographic tweaks!
     3. Add accessible line-height
     4. Improve text rendering
   */
-  body {
-    line-height: 1.5;
-    -webkit-font-smoothing: antialiased;
-    padding: 10%;
-  }
-  /*
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  padding: 10%;
+}
+/*
     5. Improve media defaults
   */
-  img, picture, video, canvas, svg {
-    display: block;
-    max-width: 100%;
-  }
-  /*
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+/*
     6. Remove built-in form typography styles
   */
-  input, button, textarea, select {
-    font: inherit;
-  }
-  /*
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+/*
     7. Avoid text overflows
   */
-  p, h1, h2, h3, h4, h5, h6 {
-    overflow-wrap: break-word;
-  }
-  /*
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+/*
     8. Create a root stacking context
   */
-  #root, #__next {
-    isolation: isolate;
-  }
+#root,
+#__next {
+  isolation: isolate;
+}
 
-
-  /*~ PAGE BACKGROUND  */
-html { 
-  background: url(/assets/images/Ocean\ Drive\ Miami.png) no-repeat center center fixed; 
+/*~ PAGE BACKGROUND  */
+html {
+  /* background: url(/assets/images/Ocean\ Drive\ Miami.png) no-repeat center center fixed;  */
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 
-  /*~ BUTTON LAYOUT */
+body {
+  background-image: url(/assets/images/daytime-miami.png);
+  background-repeat: no-repeat, repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/*~ BUTTON LAYOUT */
 .parts {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(4, 1fr);
-    grid-column-gap: 80px;
-    grid-row-gap: 50px;
-    width: 60%;
-    margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-column-gap: 80px;
+  grid-row-gap: 50px;
+  width: 60%;
+  margin: auto;
 }
 
 /*~ BUTTON STLYE */
 a {
-    background-color: rgb(224, 214, 200);
-    padding: 10px;
-    text-align: center;
-    color: rgb(87, 34, 48);
-    text-decoration: none;
-    border-radius: 10px;
-    border: 3px rgb(87, 34, 48) solid;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(224, 214, 200);
+  padding: 10px;
+  text-align: center;
+  color: rgb(87, 34, 48);
+  text-decoration: none;
+  border-radius: 10px;
+  border: 3px rgb(87, 34, 48) solid;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 a:hover {
@@ -103,7 +125,6 @@ hr {
   border: none;
 }
 
-
 /*~ MOBILE (S8+) */
 @media screen and (max-width: 360px) {
   .parts {
@@ -119,7 +140,6 @@ hr {
 
   .content {
     padding: 10px;
-    
   }
 
   .story {
