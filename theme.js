@@ -25,7 +25,7 @@ function turnDay() {
 
   // content background color
   document.getElementById("content-story").style.backgroundColor =
-    "#rgb(224, 214, 200)";
+    "rgb(224, 214, 200)";
 
   // story font colour
   document.querySelectorAll(".story")[0].style.color = "rgb(87, 34, 48)";
@@ -70,5 +70,15 @@ function turnNight() {
   document.getElementById("content-story").style.backgroundColor = "#1f515e";
 
   // story font colour
-  document.querySelectorAll("button")[0].style.color = "#cce5e0";
+  document.querySelectorAll(".story")[0].style.color = "#cce5e0";
+  document.querySelectorAll(".story")[1].style.color = "#cce5e0";
+  document.querySelectorAll(".story")[2].style.color = "#cce5e0";
+  document.querySelectorAll(".story")[3].style.color = "#cce5e0";
+  document.querySelectorAll(".story")[4].style.color = "#cce5e0";
+  document.querySelectorAll(".story")[5].style.color = "#cce5e0";
+  document.querySelectorAll(".story")[6].style.color = "#cce5e0";
+  document.querySelectorAll(".story")[7].style.color = "#cce5e0";
+  document.querySelectorAll(".story")[8].style.color = "#cce5e0";
+  document.querySelectorAll(".story")[9].style.color = "#cce5e0";
+  document.querySelectorAll(".story")[10].style.color = "#cce5e0";
 }
