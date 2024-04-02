@@ -51,7 +51,8 @@ function turnNight() {
   // const linkButton = document.querySelectorAll("a");
 
   // night theme background image
-  //   document.body.style.backgroundImage = "url(/assets/images/nighttime-miami.jpg)";
+  document.body.style.backgroundImage =
+    "url(/assets/images/nighttime-miami.jpg)";
 
   // button background colour
   document.querySelectorAll("button")[0].style.backgroundColor = "teal";
