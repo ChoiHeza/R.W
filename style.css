@@ -78,6 +78,22 @@ body {
   background-position: center;
 }
 
+/*~ THEME BUTTONS */
+.buttons {
+  margin-bottom: 20px;
+}
+
+.theme-button {
+  background-color: rgb(224, 214, 200);
+  padding: 5px;
+  text-align: center;
+  color: rgb(87, 34, 48);
+  text-decoration: none;
+  border-radius: 10px;
+  border: 2px rgb(87, 34, 48) solid;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 /*~ BUTTON LAYOUT */
 .parts {
   display: grid;
