@@ -1,27 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
     <title>1.15 Game Over</title>
-</head>
-<body>
-    <div class="content">
-        <h2 style="color: brown; text-decoration: underline;">DO OVER!</h2>
-        <p class="outfit">Outfit: Black blazer, blue strip button up and jeans</p>
-        <br>
-        <hr>
-        <br>
-        <p class="story">
-            Everything between you and Ryan were doing well. While dating him you have been very happy and he was nothing but an amazing boyfriend. It was currently Friday which meant date night and you both decided on a dinner and a movie at your apartment. You guys would usually take turns between apartments but tonight was your turn. You were in the kitchen cooking, making chicken alfredo, nothing super fancy. You were making the main dish while Ryan brought the sides and a bottle of wine. While at the stove you heard your phone ringing, so you reached for it while stirring the pot putting it on speaker. "Hello hello." "Hey babe, is there anything else I need to bring over?" you heard Ryan's voice come through the speaker "Just yourself." you told him smiling and you heard him chuckle "You got it. I'll be there in 5." "Kay Kay." he hung up and you turned back your focus to the pot, it should be finished in 10 mins. You were putting away the ingredients when you heard your apartment door opened, Ryan had your code to enter and you had his. "I'm here!" Ryan said cheeringly entering "Kitchen!" you told him. You saw him enter with a wide smile, side dishes in a bag in one hand and wine in the other. He placed the items on the counter then made his way to you "Hello you." he said wrapping his arms around your waist connecting them at the back and you placed yours around his neck "Hello to you too." you greeted back pulling him into a quick but sweet kiss. Then Ryan placed his head in your neck inhaling your scent before saying "I've missed you." and you tightened your arms around him "You saw me this morning Ryan." pulling him closer. He lifted his head and looked at you "So, it's not wrong to miss my girlfriend." he shrugged and you chuckled "I'm just teasing, don’t worry, I've missed you too." you grabbed his face between your hands and gave him a big kiss before peppering kisses all over his face, causing him to laugh "Now, go help me sent up the table, while I finish up here." you said with a curt nod and he responded with a salute "Yes mam!" you both laugh and broke apart. After putting the pasta on the plates you brought them to the table where Ryan had everything already set up. He even lit candles. "Aren't you the romantic." you said placing down the plates then gesturing to the candles. "Only for you babe.". You both sat down and enjoyed dinner, talking about your day and random things.
-        </p><br>
-        <p class="story">
-            After dinner you both moved to the couch with the wine and glasses. "So wait, he killed the guy because he was jealous?" you questioned Ryan as you both sat down, he was telling you about his case from today "Yes babe. What would you do if you were in his situation?" Ryan asked you opening the wine "For starters not kill the guy. If I got fired from the project, knowing the talent I have, I would probably start making my own game, or apply to a different company. But to kill the guy, just no." you said holding both glasses as Ryan poured the wine, he shrugged his shoulders at your reply "If only he knew that right." "So what did he do after getting fired?" you gave Ryan his glass taking a sip from yours "Want to make a guess? Of course besides killing the guy." you thought for a little, and based on the way Ryan talked about the guy earlier you came to a conclusion "He just sat home and played their game didn’t he." you said with not a surprised look and Ryan just nodded confirming your theory "Wow" you mouthed and shook your head downing the wine. Ryan just gave you a look of shock "Easy." he told you, drinking half of his before resting the glass on the coffee table "How does Triple Frontier sound?" you asked picking up the remote to select the movie "Perfect, I've always wanted to watch it." Ryan said so you picked it and placed the remote on the coffee table. You were about to ask Ryan if he wanted to lay down but he beat you to it by laying down and placing his head in your lap, a smile immediately made its way to your face. "You don't mind right?" he asked looking up at you "Not one bit." you caressed his cheek and he turned back to the tv, so you moved your hand to play with his hair.
-        </p><br>
-        <p class="story">
-            Been an hour in the movie and your positions had changed, you were cuddled into Ryan's side with his arm around you keeping you close, blanket thrown over you both. Sleepiness was overcoming you and before you know it, you were off in dreamland. Ryan saw that you had fallen asleep and just smiled to himself at how cute you were, placing a lingering kiss on your forehead. Not wanting to disturb you he turned his attention back to the tv, but once in a while he took glances at you admiring your beauty, still not believing how lucky he was to have you. Although you guys have been dating for seven months Ryan already knew that he wanted to spend the rest of his life with you.
-        </p>
+  </head>
+  <body>
+    <div class="buttons">
+      <!-- day theme buttons -->
+      <button class="theme-button" type="button" onclick="turnDay()">
+        Day
+      </button>
+      <!-- night theme button -->
+      <button class="theme-button" type="button" onclick="turnNight()">
+        Night
+      </button>
     </div>
-</body>
+    <div id="content-story" class="content">
+      <h2 style="color: brown; text-decoration: underline">DO OVER!</h2>
+      <p class="outfit">Outfit: Black blazer, blue strip button up and jeans</p>
+      <br />
+      <hr />
+      <br />
+      <p class="story">
+        Everything between you and Ryan were doing well. While dating him you
+        have been very happy and he was nothing but an amazing boyfriend. It was
+        currently Friday which meant date night and you both decided on a dinner
+        and a movie at your apartment. You guys would usually take turns between
+        apartments but tonight was your turn. You were in the kitchen cooking,
+        making chicken alfredo, nothing super fancy. You were making the main
+        dish while Ryan brought the sides and a bottle of wine. While at the
+        stove you heard your phone ringing, so you reached for it while stirring
+        the pot putting it on speaker. "Hello hello." "Hey babe, is there
+        anything else I need to bring over?" you heard Ryan's voice come through
+        the speaker "Just yourself." you told him smiling and you heard him
+        chuckle "You got it. I'll be there in 5." "Kay Kay." he hung up and you
+        turned back your focus to the pot, it should be finished in 10 mins. You
+        were putting away the ingredients when you heard your apartment door
+        opened, Ryan had your code to enter and you had his. "I'm here!" Ryan
+        said cheeringly entering "Kitchen!" you told him. You saw him enter with
+        a wide smile, side dishes in a bag in one hand and wine in the other. He
+        placed the items on the counter then made his way to you "Hello you." he
+        said wrapping his arms around your waist connecting them at the back and
+        you placed yours around his neck "Hello to you too." you greeted back
+        pulling him into a quick but sweet kiss. Then Ryan placed his head in
+        your neck inhaling your scent before saying "I've missed you." and you
+        tightened your arms around him "You saw me this morning Ryan." pulling
+        him closer. He lifted his head and looked at you "So, it's not wrong to
+        miss my girlfriend." he shrugged and you chuckled "I'm just teasing,
+        don’t worry, I've missed you too." you grabbed his face between your
+        hands and gave him a big kiss before peppering kisses all over his face,
+        causing him to laugh "Now, go help me sent up the table, while I finish
+        up here." you said with a curt nod and he responded with a salute "Yes
+        mam!" you both laugh and broke apart. After putting the pasta on the
+        plates you brought them to the table where Ryan had everything already
+        set up. He even lit candles. "Aren't you the romantic." you said placing
+        down the plates then gesturing to the candles. "Only for you babe.". You
+        both sat down and enjoyed dinner, talking about your day and random
+        things.
+      </p>
+      <br />
+      <p class="story">
+        After dinner you both moved to the couch with the wine and glasses. "So
+        wait, he killed the guy because he was jealous?" you questioned Ryan as
+        you both sat down, he was telling you about his case from today "Yes
+        babe. What would you do if you were in his situation?" Ryan asked you
+        opening the wine "For starters not kill the guy. If I got fired from the
+        project, knowing the talent I have, I would probably start making my own
+        game, or apply to a different company. But to kill the guy, just no."
+        you said holding both glasses as Ryan poured the wine, he shrugged his
+        shoulders at your reply "If only he knew that right." "So what did he do
+        after getting fired?" you gave Ryan his glass taking a sip from yours
+        "Want to make a guess? Of course besides killing the guy." you thought
+        for a little, and based on the way Ryan talked about the guy earlier you
+        came to a conclusion "He just sat home and played their game didn’t he."
+        you said with not a surprised look and Ryan just nodded confirming your
+        theory "Wow" you mouthed and shook your head downing the wine. Ryan just
+        gave you a look of shock "Easy." he told you, drinking half of his
+        before resting the glass on the coffee table "How does Triple Frontier
+        sound?" you asked picking up the remote to select the movie "Perfect,
+        I've always wanted to watch it." Ryan said so you picked it and placed
+        the remote on the coffee table. You were about to ask Ryan if he wanted
+        to lay down but he beat you to it by laying down and placing his head in
+        your lap, a smile immediately made its way to your face. "You don't mind
+        right?" he asked looking up at you "Not one bit." you caressed his cheek
+        and he turned back to the tv, so you moved your hand to play with his
+        hair.
+      </p>
+      <br />
+      <p class="story">
+        Been an hour in the movie and your positions had changed, you were
+        cuddled into Ryan's side with his arm around you keeping you close,
+        blanket thrown over you both. Sleepiness was overcoming you and before
+        you know it, you were off in dreamland. Ryan saw that you had fallen
+        asleep and just smiled to himself at how cute you were, placing a
+        lingering kiss on your forehead. Not wanting to disturb you he turned
+        his attention back to the tv, but once in a while he took glances at you
+        admiring your beauty, still not believing how lucky he was to have you.
+        Although you guys have been dating for seven months Ryan already knew
+        that he wanted to spend the rest of his life with you.
+      </p>
+    </div>
+    <script src="/theme.js"></script>
+  </body>
 </html>
