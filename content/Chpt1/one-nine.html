@@ -1,23 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
     <title>1.9 Shootout</title>
-</head>
-<body>
-    <div class="content">
-        <p class="outfit">Outfit: White button up, black sweater vest and jeans</p>
-        <br>
-        <hr>
-        <br>
-        <p class="story">
-            You were laying on the sofa when Ryan came home "Hey babe, I'm home." "Hey!" you shouted back feeling too tired to get up. A couple seconds went by before you saw Ryan stalked into the living room all sulky and before you had chance to sit up, Ryan lay down placing himself on top of you, head going into the crook of your neck. Hand went to rub his back while the other wrapped around him. "Bad day?" you asked and felt him nod. You let him rest and gave him time to talk about what was bothering him. Two minutes didn't even pass before he started "Some people shouldn't be allowed to have children" he said after moving out of your neck, to rest on your chest "You heard about the shootout at the hospital right?" "Yeah, I saw it on the news." "Right, I had to go there to investigate the scene, but while passing through the room my eyes landed on some blood splatter on a witness clothing, so I stopped and asked her for the jacket she was wearing. While waiting, she was holding a baby and I saw something didn't look quit right with the baby based on the statement she gave, so I asked to see the baby to get it checked out. Going with a nurse it seemed that the baby was suffocated for a short period of time. The lady said it was because she sheltering the baby from the shootout but with evidence it turns out that was a lie. Then my mind went to child abuse on her part, but upon further investigation, she was just the day nanny of the baby and she kidnapped her, because the mother doesn't care for the child and I got to see for myself this evening when I returned the baby to her. The mother took the baby from me, gave it a look and handed it off to another nanny, and next proceeded to take calls on her phone before leaving." Ryan sighed very deeply "So what happened to the nanny?" "I talked to H about getting her charges dropped because it wouldn't have been fair to her, she had pure intentions but just went about it wrong, but she thanked me in the end. But my heart still felt heavy knowing that there was nothing else I could of done for the baby." you hold Ryan closer to you wrapping your arms tighter around him "I'm sorry Ryan. I know you wished you could of done more, but you just have to pray that those nannies actually do take really good care for her and the child grows up feeling loved at least not by her parents but the ones who raised her." you reassured him "That's all we can do." "So you never got to work the shootout case?" "Nah, I worked on the baby for the day. Low key wished I didn't spot the blood on the nanny." "What do you mean?" "Maybe if I didn't spot it, then the nanny would of succeeded in taking away the child and then that child would of grown up receiving the love and care it deserved." "I get where you're coming from, but if you didn't stop the nanny the time you did, and she succeeded in kidnapping, she would of gotten caught and that would have been jail for her." "I know. It wouldn't have been wise.". You consoled Ryan and you both remained quiet for some time in each other arms.
-        </p><br>
-        <p class="story">
-            You were in the kitchen preparing food, and Ryan was in the shower. Turning off the stove after you've finished, you heading towards the bedroom to see if Ryan was finished. Entering you saw he was laying on the bed face up staring at the ceiling "Food's ready." you said, but he seemed to be too lost in thought that he didn't hear you. Walking over, you lay beside him on your side, resting on your elbow and tapped his chest "Food's ready babe." he nodded before looking at you "Promise me that if we ever have children, we won't be those kind of parents. The ones that never have time for their children." you smiled "I promise, we won't be. Our children will be so loved and taken care of that they'll get cavities from how sweet we treat them." that brought a smile to Ryan's face which you leaned down to kiss "You think we'll make good parents?" "I know we'll make great parents." you reassured him and his smile widen "When the time comes, which is nowhere near but in the future, we will be amazing." Ryan chuckled agreeing "Of course. Thank you Heather." "What for?" "For putting my mind at ease and keeping me steady." and you returned a smile of your own "Always." you placed one quick kiss to his cheek before getting up and reaching out your hands "Let's go eat." he took hold of them pulling himself up with your help "Yes mam." with him standing in front of you "You're good?" he nodded "I'm good." he gave a reassuring smile, then a peck to your lips before walking away and giving your bum a smack causing you to laugh and you followed him out the bedroom into to kitchen to have dinner.
-        </p>
+  </head>
+  <body>
+    <div class="buttons">
+      <!-- day theme button -->
+      <button class="theme-button" type="button" onclick="turnDay()">
+        Day
+      </button>
+      <!-- night theme button -->
+      <button class="theme-button" type="button" onclick="turnNight()">
+        Night
+      </button>
     </div>
-</body>
+    <div id="content-story" class="content">
+      <p class="outfit">
+        Outfit: White button up, black sweater vest and jeans
+      </p>
+      <br />
+      <hr />
+      <br />
+      <p class="story">
+        You were laying on the sofa when Ryan came home "Hey babe, I'm home."
+        "Hey!" you shouted back feeling too tired to get up. A couple seconds
+        went by before you saw Ryan stalked into the living room all sulky and
+        before you had chance to sit up Ryan lay down placing himself onto of
+        you, head resting in the crook of your neck. Hand went to rub his back
+        while the other wrapped around him. "Bad day?" you asked and felt him
+        nod. You let him rest and gave him time to talk about what was bothering
+        him, two minutes didn't even pass before he started "Some people
+        shouldn't be allowed to have children" he said after moving out of your
+        neck and to rest on your chest "You heard about the shootout at the
+        hospital right?" "Yeah, I saw it on the news." "Right, I had to go there
+        to investigate the scene, and while passing through the room my eyes
+        landed on some blood splatter on a witness clothing, so I stopped and
+        asked her for the jacket she was wearing. While waiting, she was holding
+        a baby and I saw something didn't quit looked right with the baby based
+        on the statement she gave, so I asked to see the baby to get it checked
+        out. Going with a nurse it seemed that the baby was suffocated for a
+        short period of time. The lady said it was because she sheltering the
+        baby from the shootout but with evidence it turns out that was a lie.
+        Then my mind went to child abuse on her part, but upon further
+        investigation, she was just the day nanny of the baby and she kidnapped
+        her, because the mother doesn't care for the child and I got to see for
+        myself this evening when I returned the baby to her. The mother took the
+        baby from me, gave it a look and handed it off to another nanny, and
+        next proceeded to take calls on her phone before leaving." Ryan sighed
+        very deeply "So what happened to the nanny?" "I talked to H about
+        getting her charges dropped because it wouldn't have been fair to her,
+        she had pure intentions but just went about it wrong, but she thanked me
+        in the end. But my heart still felt heavy knowing that there was nothing
+        else I could of done for the baby." you hold Ryan closer to you wrapping
+        your arms tighter around him "I'm sorry Ryan, I know you wished you
+        could of done more, but you just have to pray that those nannies
+        actually do take really good care for her and the child grows up feeling
+        loved at least not by her parents but the ones who raised her." you
+        reassured him "That's all we can do." "So you never got to work the
+        shootout case?" "Nah, I worked on the baby for the day. Low key wished I
+        didn't spot the blood on the nanny." "What do you mean?" "Maybe if I
+        didn't spot it, then the nanny would of succeeded in taking away the
+        child and then that child would of grown up receiving the love and care
+        it deserved." "I get where you're coming from, but if you didn't stop
+        the nanny the time you did, and she succeeded in kidnapping, she would
+        of gotten caught and that would have been jail for her." "I know. It
+        wouldn't have been wise.". You consoled Ryan and you both remained quiet
+        for some time in each other arms.
+      </p>
+      <br />
+      <p class="story">
+        You were in the kitchen preparing food, and Ryan was in the shower.
+        Turning off the stove after you've finished, you heading towards the
+        bedroom to see if Ryan was finished. Entering you saw he was laying on
+        the bed face up staring at the ceiling "Food's ready." you said, but he
+        seemed to be too lost in thought that he didn't hear you. Walking over
+        to him you lay beside him on your side, resting on your elbow and tapped
+        his chest "Food's ready babe." he nodded before looking at you "Promise
+        me that if we ever have children, we won't be those kind of parents. The
+        ones that never have time for their children." you smiled "I promise, we
+        won't be. Our children will be so loved and taken care of that they'll
+        get cavities from how sweet we treat them." that brought a smile to
+        Ryan's face which you leaned down to kiss "You think we'll make good
+        parents?" "I know we'll make great parents." you reassured him and his
+        smile widen "When the time comes, which is nowhere near but in the
+        future, we will be amazing." Ryan chuckled agreeing "Of course. Thank
+        you Heather." "What for?" "For putting my mind at ease and keeping me
+        steady." and you returned a smile of your own "Always." you placed one
+        quick kiss to his cheek before getting up and reaching out your hands
+        "Let's go eat." he took hold of them pulling himself up with your help
+        "Yes mam." with him standing in front of you "You're good?" and he
+        nodded "I'm good." he gave a reassuring smile, then a peck to your lips
+        before walking away and giving your bum a smack causing you to laugh and
+        you followed him out the bedroom into to kitchen to have dinner.
+      </p>
+    </div>
+    <script src="/theme.js"></script>
+  </body>
 </html>

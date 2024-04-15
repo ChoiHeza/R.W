@@ -1,24 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
     <title>2.10 Shattered</title>
-</head>
-<body>
-    <div class="content">
-        <p class="outfit">Outfit: Green blazer, green strip button up, jeans</p>
-        <br><hr><br>
-        <p class="story">
-            You were already home for the day from work and was currently watching tv when you got a call on your phone, checking the ID you saw it was Alexx, that works with Ryan, so you answered it cheerfully "Hey Alexx, what do I owe the pleasure?" "Hey baby, I hope all is well with you, but I'm calling about something concerning your husband." your heart dropped a bit, and panic started to set in "Is Ryan okay?" you asked quickly sitting up and she must have sensed the fear in your voice and that you're probably thinking the worse "Nothing has happened to him. He's perfectly fine, well, for the most part." you released the breath you were holding before continuing "I'm listening." she sighed before continuing "It's about his eye, has he told you anything about it?" "No, last time I asked him he said it was perfectly fine." she released a sigh once again not surprised at your response "That's what I was afraid of. He came to me today to get his eye checked and he has an infection." you gasped "It's not that serious at the moment, so I gave him some antibiotics to take and told him to make an appointment with the ophthalmologists that I recommended for him, cause baby, if Ryan doesn’t get this treated, it's going to get worse and he can lose his eye sight." your heart became heavy and a part of you knows why he didn't tell you anything, so you sighed before replying "Thank you for telling me Alexx, I guess you really do know Ryan." "Of course honey, that's why I told you. It's just to make sure he does what's right before it gets worse, so please make sure he makes that appointment." "I will, I'll know how to deal with him and he won't know that this conversation happened between us until he needs to know." and Alexx smiled to herself "He's lucky to have you, cause someone like you is definitely needed in his life." you guys chatted for a bit more before bidding a bye to each other. After hanging up, you leaned back in the sofa with your mind racing a mile a minute, thinking of Ryan and his eye.
-        </p><br>
-        <p class="story">
-            "Hey babe, I'm home and I come bringing treats." you heard Ryan called out making you get up to go greet him "Hey baby, welcome home." you greeted him with a quick kiss, then took hold of his face to admire him a bit longer than usual, but he broke you out of your trance "Everything okay?" he asked with a smile and you nodded "Just looking at my loving husband." you gave him a quick peck before changing topic "What are the treats?" you asked and he brought a bag into your view handing it off to you "Take a look." looking into the bag, you saw it was a variety of your favourite sweets and snacks, the gesture brought a wide smile to your face "Now, I know my husband loves spoiling me, but I also know he buys me things sometimes when there's something bothering him that's hard to tell me, so which is it?" you asked with a raised brow and Ryan chuckled with a scratch to the back of his neck "I hate that you know me so well. Let's sit and talk." he said leading you to the sofa where you both sat facing each other. Ryan sighed before speaking "While working the case today, I took photos of the crime scene and they were all blurry. I knew it wasn't the camera, but my eye, so I decided to go to Alexx and get it checked out." you inhaled listening to him "What did she say?" "I have an infection, and to go to a proper doctor." so you gave him a raised brow "Will you? This time go to a proper doctor?" "I promised her I would, but.." Ryan paused trying to find the words to say so you helped him "But you're scared that they're going to find something that's going to declare you not fit for work." Ryan looked at you with a sad smile and nodded so you took hold of his hands for comfort "I know it's scary, the fact that you can lose your job but, something else worse can happen. Like losing your eye sight Ryan, and as much as it sucks to see a doctor, that's what you need to do. So let's get this thing better before it gets worse. Just go and see what we're working with." Ryan looked down at your intertwined hands giving them a squeeze "I know, and you're right. It is scary but I'll make the appointment." at the end he looked up at you with a smile which you returned with a proud one "That's my baby. I'm very proud of you." he chuckled "It would suck not being able to see your face if I went blind." "So let's avoid that, shall we?" and Ryan nodded "Can you come with me, to the appointment?" "Of course." you brought a hand up and caressed his cheek before giving him a peck on his lips. "Have I ever told you how much I love you and how lucky I am to have you in my life." Ryan said with a wide smile and you shrugged "I may have heard it once or twice." you both chuckled "I'll always be here for you because you are the love of my life." you returned sincerely and Ryan's eyes filled with love, that he just had to take hold of your face and smash his lips against yours.
-        </p><br>
-        <p class="story">
-            You were both eating dinner when Ryan turned to ask you "Alexx called and told you didn’t she?" your eyes widened and you swallowed what you were eating before replying "What makes you say that?" "Because I see a lot of you both in each other, and I had a feeling she would call you just to make sure I make the appointment. Don't worry, I'm not mad" Ryan chuckled letting you know he's not mad "We just really care for you, that's all." "I know you both do, and that's why I'm very thankful to have you guys in my life." Ryan offered such a sweet smile to you showing his appreciation, and you guys honestly wouldn't want to be anywhere else.
-        </p>
+  </head>
+  <body>
+    <div class="buttons">
+      <!-- day theme buttons -->
+      <button class="theme-button" type="button" onclick="turnDay()">
+        Day
+      </button>
+      <!-- night theme buttons -->
+      <button class="theme-button" type="button" onclick="turnNight()">
+        Night
+      </button>
     </div>
-</body>
+    <div id="content-story" class="content">
+      <p class="outfit">Outfit: Green blazer, green strip button up, jeans</p>
+      <br />
+      <hr />
+      <br />
+      <p class="story">
+        You were already home for the day from work and was currently watching
+        tv when you got a call on your phone, checking the ID you saw it was
+        Alexx, that works with Ryan, so you answered it cheerfully "Hey Alexx,
+        what do I owe the pleasure?" "Hey baby, I hope all is well with you, but
+        I'm calling about something concerning your husband." your heart dropped
+        a bit, and panic started to set in "Is Ryan okay?" you asked quickly
+        sitting up and she must have sensed the fear in your voice and that
+        you're probably thinking the worse "Nothing has happened to him. He's
+        perfectly fine, well, for the most part." you released the breath you
+        were holding before continuing "I'm listening." she sighed before
+        continuing "It's about his eye, has he told you anything about it?" "No,
+        last time I asked him he said it was perfectly fine." she released a
+        sigh once again not surprised at your response "That's what I was afraid
+        of. He came to me today to get his eye checked and he has an infection."
+        you gasped "It's not that serious at the moment, so I gave him some
+        antibiotics to take and told him to make an appointment with the
+        ophthalmologists that I recommended for him, cause baby, if Ryan doesn’t
+        get this treated, it's going to get worse and he can lose his eye
+        sight." your heart became heavy and a part of you knows why he didn't
+        tell you anything, so you sighed before replying "Thank you for telling
+        me Alexx, I guess you really do know Ryan." "Of course honey, that's why
+        I told you. It's just to make sure he does what's right before it gets
+        worse, so please make sure he makes that appointment." "I will, I'll
+        know how to deal with him and he won't know that this conversation
+        happened between us until he needs to know." and Alexx smiled to herself
+        "He's lucky to have you, cause someone like you is definitely needed in
+        his life." you guys chatted for a bit more before bidding a bye to each
+        other. After hanging up, you leaned back in the sofa with your mind
+        racing a mile a minute, thinking of Ryan and his eye.
+      </p>
+      <br />
+      <p class="story">
+        "Hey babe, I'm home and I come bringing treats." you heard Ryan called
+        out making you get up to go greet him "Hey baby, welcome home." you
+        greeted him with a quick kiss, then took hold of his face to admire him
+        a bit longer than usual, but he broke you out of your trance "Everything
+        okay?" he asked with a smile and you nodded "Just looking at my loving
+        husband." you gave him a quick peck before changing topic "What are the
+        treats?" you asked and he brought a bag into your view handing it off to
+        you "Take a look." looking into the bag, you saw it was a variety of
+        your favourite sweets and snacks, the gesture brought a wide smile to
+        your face "Now, I know my husband loves spoiling me, but I also know he
+        buys me things sometimes when there's something bothering him that's
+        hard to tell me, so which is it?" you asked with a raised brow and Ryan
+        chuckled with a scratch to the back of his neck "I hate that you know me
+        so well. Let's sit and talk." he said leading you to the sofa where you
+        both sat facing each other. Ryan sighed before speaking "While working
+        the case today, I took photos of the crime scene and they were all
+        blurry. I knew it wasn't the camera, but my eye, so I decided to go to
+        Alexx and get it checked out." you inhaled listening to him "What did
+        she say?" "I have an infection, and to go to a proper doctor." so you
+        gave him a raised brow "Will you? This time go to a proper doctor?" "I
+        promised her I would, but.." Ryan paused trying to find the words to say
+        so you helped him "But you're scared that they're going to find
+        something that's going to declare you not fit for work." Ryan looked at
+        you with a sad smile and nodded so you took hold of his hands for
+        comfort "I know it's scary, the fact that you can lose your job but,
+        something else worse can happen. Like losing your eye sight Ryan, and as
+        much as it sucks to see a doctor, that's what you need to do. So let's
+        get this thing better before it gets worse. Just go and see what we're
+        working with." Ryan looked down at your intertwined hands giving them a
+        squeeze "I know, and you're right. It is scary but I'll make the
+        appointment." at the end he looked up at you with a smile which you
+        returned with a proud one "That's my baby. I'm very proud of you." he
+        chuckled "It would suck not being able to see your face if I went
+        blind." "So let's avoid that, shall we?" and Ryan nodded "Can you come
+        with me, to the appointment?" "Of course." you brought a hand up and
+        caressed his cheek before giving him a peck on his lips. "Have I ever
+        told you how much I love you and how lucky I am to have you in my life."
+        Ryan said with a wide smile and you shrugged "I may have heard it once
+        or twice." you both chuckled "I'll always be here for you because you
+        are the love of my life." you returned sincerely and Ryan's eyes filled
+        with love, that he just had to take hold of your face and smash his lips
+        against yours.
+      </p>
+      <br />
+      <p class="story">
+        You were both eating dinner when Ryan turned to ask you "Alexx called
+        and told you didn’t she?" your eyes widened and you swallowed what you
+        were eating before replying "What makes you say that?" "Because I see a
+        lot of you both in each other, and I had a feeling she would call you
+        just to make sure I make the appointment. Don't worry, I'm not mad" Ryan
+        chuckled letting you know he's not mad "We just really care for you,
+        that's all." "I know you both do, and that's why I'm very thankful to
+        have you guys in my life." Ryan offered such a sweet smile to you
+        showing his appreciation, and you guys honestly wouldn't want to be
+        anywhere else.
+      </p>
+    </div>
+    <script src="/theme.js"></script>
+  </body>
 </html>

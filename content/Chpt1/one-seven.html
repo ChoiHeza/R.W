@@ -1,23 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
     <title>1.7 After The Fall</title>
-</head>
-<body>
-    <div class="content">
-        <p class="outfit">Outfit: Orange polo with a red long sleeve underneath, jeans </p>
-        <br>
-        <hr>
-        <br>
-        <p class="story">
-            You had to leave earlier than usual that morning so you left Ryan still in bed and you didn’t want to wake him because he finished work pretty late the previous night. So not having any physical interactions from Ryan throughout the whole day was starting to dawn on you as you sat on the sofa, tv on in the background waiting for Ryan to return home. When you heard the opening of the apartment door, your ears perked up and a smile adorned your face, as your feet took charge and got up heading in the direction of your boyfriend. You heard him before you saw him "Hey babe, I'm home." rounding the corner you were about to great him with the biggest hug, but when you saw him you halted in your steps. He looked up you and saw you halted looking at him well most specifically his clothes and he followed your line of sight "What's wrong?" "Ryan Wolfe, please tell me, what are you wearing?" you approached him now inspecting more and pulling at his clothes "What's wrong with what I'm wearing?" you gave him a look before returning back to his clothes pointing out each "The colours, this is a big no. Bright red and bright orange. Babe, no, they don't go." Ryan sighed "Is it that bad?" you nodded with an apology "This is what happens when you leave home before me." "You are not wrong, but the polo shirt and the long sleeve are not a bad combo though, it's just the colours. Next time try a light and a dark colour together, complement them, not clash them." and he nodded "Okay, I can do that, but I think it would be better if you gave me a class on this." he offered a smile your direction making you release a laugh "No need for that extreme. You don’t dress bad, just today the colours weren't it, that's all." you reassured him "So beside my awful taste in colour combinations, can I still get a greeting kiss from my girlfriend?" he said looking down at you with puppy eyes making you bring your hands up to capture his face "Of course." you tiptoed and brought his face to meet yours half way in a tender kiss and Ryan took the opportunity to rest his hands on your hips. Pulling away Ryan was the first to speak "I really missed you today. I didn't get my morning kisses." "I just gave you a light kiss on your back. I didn’t want to wake you." "So, I wouldn't have minded." so you rubbed his cheeks replying "Okay, I'll remember that for the future." you gave him a smile and quick peck before stepping out of his arms. "Hungry?" "Yes mam." Ryan replied nodding.
-        </p><br>
-        <p class="story">
-            After eating you were both in the bedroom, and you were currently laying on the bed unintentionally watching Ryan as he undressed to take a shower. "Today's main suspect was pretty interesting, he has OCD." you perked up at that going into a sitting position "So to get into his head was pretty easy huh?" "Actually it was, because Eric and I were at his apartment, looking for the murder weapon, and he asked if I were him where would I hide it and it didn't take me long to figure it out." you squinted your eyes "I don't know if to be impressed or worried." you said hesitantly and Ryan laughed going to the bathroom after saying "Babe, I'm not a killer." and you shrugged your shoulders "I don't know about that." you followed him going to brush your teeth. "What do you mean by, you don't know about that?" he gave you a raised brow turning on the shower "Anyone can be capable of murder." you said honestly "You do have a point." Ryan said nonchalantly and that made you gasp looking at him as he stepped in the shower "Ryan, are you saying that you're a murderer?" "Of course not, I'm just agreeing with you that anyone can be capable of anything." after he corrected, you turned back to sink and got to brushing your teeth. After a moment Ryan spoke again "The victim made sex tapes by the way, we found her stash, she has a shelf full of sex toys and stuff." and you chuckled "Sounds like good times" and Ryan laughed "I said the exact same thing". You were applying a sheet mask to your face when Ryan stepped out the shower "Why don't we have any?" "Have any what?" you asked looking at him through the mirror "Sex toys." you thought for a moment pausing your actions "I guess the topic never came up." you resumed back to the mask looking back at your reflection "How do you feel about them?" "I guess I don’t have a feeling towards them." you said finishing with your mask turning to look at Ryan "Do you want sex toys Ryan?" you asked him folding your arms and he shrugged his shoulders "I don't know." and you released a laugh "It sounds like you do." you pushed yourself off the counter passing him leaving the bathroom and he followed you "It was just an interesting thought, but it wouldn't hurt to check them out." "Okay, we can look into to that." you said with a smile "What?" Ryan asked seeing your reaction "I like when I get to learn new stuff about you." you reassured him with a kiss "I like it when we communicate." you offered him a smile which he returned "Even the weirdest thoughts I have?" "Even the weirdest thoughts you have." you chuckled and Ryans' heart swelled.
-        </p>
+  </head>
+  <body>
+    <div class="buttons">
+      <!-- day theme button -->
+      <button class="theme-button" type="button" onclick="turnDay()">
+        Day
+      </button>
+      <!-- night theme button -->
+      <button class="theme-button" type="button" onclick="turnNight()">
+        Night
+      </button>
     </div>
-</body>
+    <div id="content-story" class="content">
+      <p class="outfit">
+        Outfit: Orange polo with a red long sleeve underneath, jeans
+      </p>
+      <br />
+      <hr />
+      <br />
+      <p class="story">
+        You had to leave earlier than usual that morning so you left Ryan still
+        in bed and you didn’t want to wake him because he finished work pretty
+        late the previous night. So not having any physical interactions from
+        Ryan throughout the whole day was starting to dawn on you as you sat on
+        the sofa, tv on in the background waiting for Ryan to return home. When
+        you heard the opening of the apartment door, your ears perked up and a
+        smile adorned your face, as your feet took charge and got up heading in
+        the direction of your boyfriend. You heard him before you saw him "Hey
+        babe, I'm home." rounding the corner you were about to great him with
+        the biggest hug, but when you saw him you halted in your steps. He
+        looked up you and saw you halted looking at him well most specifically
+        his clothes and he followed your line of sight "What's wrong?" "Ryan
+        Wolfe, please tell me, what are you wearing?" you approached him now
+        inspecting more and pulling at his clothes "What's wrong with what I'm
+        wearing?" you gave him a look before returning back to his clothes
+        pointing out each "The colours, this is a big no. Bright red and bright
+        orange. Babe, no, they don't go." Ryan sighed "Is it that bad?" you
+        nodded with an apology "This is what happens when you leave home before
+        me." "You are not wrong, but the polo shirt and the long sleeve are not
+        a bad combo though, it's just the colours. Next time try a light and a
+        dark colour together, complement them, not clash them." and he nodded
+        "Okay, I can do that, but I think it would be better if you gave me a
+        class on this." he offered a smile your direction making you release a
+        laugh "No need for that extreme. You don’t dress bad, just today the
+        colours weren't it, that's all." you reassured him "So beside my awful
+        taste in colour combinations, can I still get a greeting kiss from my
+        girlfriend?" he said looking down at you with puppy eyes making you
+        bring your hands up to capture his face "Of course." you tiptoed and
+        brought his face to meet yours half way in a tender kiss and Ryan took
+        the opportunity to rest his hands on your hips. Pulling away Ryan was
+        the first to speak "I really missed you today. I didn't get my morning
+        kisses." "I just gave you a light kiss on your back. I didn’t want to
+        wake you." "So, I wouldn't have minded." so you rubbed his cheeks
+        replying "Okay, I'll remember that for the future." you gave him a smile
+        and quick peck before stepping out of his arms. "Hungry?" "Yes mam."
+        Ryan replied nodding.
+      </p>
+      <br />
+      <p class="story">
+        After eating you were both in the bedroom, and you were currently laying
+        on the bed unintentionally watching Ryan as he undressed to take a
+        shower. "Today's main suspect was pretty interesting, he has OCD." you
+        perked up at that going into a sitting position "So to get into his head
+        was pretty easy huh?" "Actually it was, because Eric and I were at his
+        apartment, looking for the murder weapon, and he asked if I were him
+        where would I hide it and it didn't take me long to figure it out." you
+        squinted your eyes "I don't know if to be impressed or worried." you
+        said hesitantly and Ryan laughed going to the bathroom after saying
+        "Babe, I'm not a killer." and you shrugged your shoulders "I don't know
+        about that." you followed him going to brush your teeth. "What do you
+        mean by, you don't know about that?" he gave you a raised brow turning
+        on the shower "Anyone can be capable of murder." you said honestly "You
+        do have a point." Ryan said nonchalantly and that made you gasp looking
+        at him as he stepped in the shower "Ryan, are you saying that you're a
+        murderer?" "Of course not, I'm just agreeing with you that anyone can be
+        capable of anything." after he corrected, you turned back to sink and
+        got to brushing your teeth. After a moment Ryan spoke again "The victim
+        made sex tapes by the way, we found her stash, she has a shelf full of
+        sex toys and stuff." and you chuckled "Sounds like good times" and Ryan
+        laughed "I said the exact same thing". You were applying a sheet mask to
+        your face when Ryan stepped out the shower "Why don't we have any?"
+        "Have any what?" you asked looking at him through the mirror "Sex toys."
+        you thought for a moment pausing your actions "I guess the topic never
+        came up." you resumed back to the mask looking back at your reflection
+        "How do you feel about them?" "I guess I don’t have a feeling towards
+        them." you said finishing with your mask turning to look at Ryan "Do you
+        want sex toys Ryan?" you asked him folding your arms and he shrugged his
+        shoulders "I don't know." and you released a laugh "It sounds like you
+        do." you pushed yourself off the counter passing him leaving the
+        bathroom and he followed you "It was just an interesting thought, but it
+        wouldn't hurt to check them out." "Okay, we can look into to that." you
+        said with a smile "What?" Ryan asked seeing your reaction "I like when I
+        get to learn new stuff about you." you reassured him with a kiss "I like
+        it when we communicate." you offered him a smile which he returned "Even
+        the weirdest thoughts I have?" "Even the weirdest thoughts you have."
+        you chuckled and Ryans' heart swelled.
+      </p>
+    </div>
+    <script src="/theme.js"></script>
+  </body>
 </html>
