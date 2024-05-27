@@ -7,7 +7,17 @@
     <title>3.23 Kill Switch</title>
 </head>
 <body>
-    <div class="content">
+    <div class="buttons">
+      <!-- day theme button -->
+      <button class="theme-button" type="button" onclick="turnDay()">
+        Day
+      </button>
+      <!-- night theme button -->
+      <button class="theme-button" type="button" onclick="turnNight()">
+        Night
+      </button>
+    </div>
+    <div id="content-story" class="content">
         <p class="outfit">Outfit: </p>
         <br><hr><br>
         <p class="story">
@@ -23,5 +33,6 @@
             You're at work, working so hard because the promotion was coming up and you wanted it so bad, and you're going to make sure it's you that gets it. Yeah Ryan may not be a CSI anymore but that's not going to stop you because a part of you hopes that he gets back his job there. A thought that crossed your mind was that because of Ryan's mistake you hoped it didn't stop you from getting the job because you're married to him resulting in you carrying his name, because you worked to hard for this to be taken from you. You have never prayed so hard, so you're hoping God's got you covered.
         </p>
     </div>
+    <script src="/theme.js"></script>
 </body>
 </html>
