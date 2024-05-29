@@ -7,7 +7,17 @@
     <title>4.4 Bang Bang Your Debt</title>
   </head>
   <body>
-    <div class="content">
+    <div class="buttons">
+      <!-- day theme button -->
+      <button class="theme-button" type="button" onclick="turnDay()">
+        Day
+      </button>
+      <!-- night theme button -->
+      <button class="theme-button" type="button" onclick="turnNight()">
+        Night
+      </button>
+    </div>
+    <div id="content-story" class="content">
       <p class="outfit">Outfit: Grey suit and green button up</p>
       <br />
       <hr />
@@ -127,5 +137,6 @@
         talk about your day and from one topic to another.
       </p>
     </div>
+    <script src="/theme.js"></script>
   </body>
 </html>
