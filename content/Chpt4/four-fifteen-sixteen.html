@@ -7,7 +7,17 @@
     <title>4.15-16 All In & Ambush</title>
   </head>
   <body>
-    <div class="content">
+    <div class="buttons">
+      <!-- day theme button -->
+      <button class="theme-button" type="button" onclick="turnDay()">
+        Day
+      </button>
+      <!-- night theme button -->
+      <button class="theme-button" type="button" onclick="turnNight()">
+        Night
+      </button>
+    </div>
+    <div id="content-story" class="content">
       <p class="outfit">
         Outfit: Navy blue suit, yellow button up with white and yellow tie
       </p>
@@ -238,5 +248,6 @@
         to sleep before he allowed his own slumber to overtake him.
       </p>
     </div>
+    <script src="/theme.js"></script>
   </body>
 </html>

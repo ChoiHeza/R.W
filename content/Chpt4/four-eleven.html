@@ -7,7 +7,17 @@
     <title>4.11 Guerillas In The Mist</title>
   </head>
   <body>
-    <div class="content">
+    <div class="buttons">
+      <!-- day theme button -->
+      <button class="theme-button" type="button" onclick="turnDay()">
+        Day
+      </button>
+      <!-- night theme button -->
+      <button class="theme-button" type="button" onclick="turnNight()">
+        Night
+      </button>
+    </div>
+    <div id="content-story" class="content">
       <p class="outfit">Outfit: Grey suit, green strip button up</p>
       <br />
       <hr />
@@ -135,5 +145,6 @@
         bathroom.
       </p>
     </div>
+    <script src="/theme.js"></script>
   </body>
 </html>
