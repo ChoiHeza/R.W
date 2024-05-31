@@ -7,7 +7,17 @@
     <title>4.21 - 5.1 Ballistic & Resurrection</title>
   </head>
   <body>
-    <div class="content">
+    <div class="buttons">
+      <!-- day theme button -->
+      <button class="theme-button" type="button" onclick="turnDay()">
+        Day
+      </button>
+      <!-- night theme button -->
+      <button class="theme-button" type="button" onclick="turnNight()">
+        Night
+      </button>
+    </div>
+    <div id="content-story" class="content">
       <p class="outfit">
         Outfit: Grey suit, purple button up with a purple tie
       </p>
@@ -294,5 +304,6 @@
         heading for the bedroom.
       </p>
     </div>
+    <script src="/theme.js"></script>
   </body>
 </html>
