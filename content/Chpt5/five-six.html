@@ -7,7 +7,17 @@
     <title>5.6 Wrecking Crew</title>
   </head>
   <body>
-    <div class="content">
+    <div class="buttons">
+      <!-- day theme button -->
+      <button class="theme-button" type="button" onclick="turnDay()">
+        Day
+      </button>
+      <!-- night theme button -->
+      <button class="theme-button" type="button" onclick="turnNight()">
+        Night
+      </button>
+    </div>
+    <div id="content-story" class="content">
       <p class="outfit">Outfit: Tan jacket, white v-neck and jeans</p>
       <br />
       <hr />
@@ -275,5 +285,6 @@
         now it's my turn to carry you'.
       </p>
     </div>
+    <script src="/theme.js"></script>
   </body>
 </html>
