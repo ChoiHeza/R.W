@@ -4,11 +4,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/style.css" />
-    n
     <title>6.24 All Fall Down</title>
   </head>
   <body>
-    <div class="content">
+    <div class="buttons">
+      <!-- day theme button -->
+      <button class="theme-button" type="button" onclick="turnDay()">
+        Day
+      </button>
+      <!-- night theme button -->
+      <button class="theme-button" type="button" onclick="turnNight()">
+        Night
+      </button>
+    </div>
+    <div id="content-story" class="content">
       <p class="outfit">
         Outfit: Yellow t-shirt with a pattern and white pants
       </p>
@@ -99,5 +108,6 @@
         everyone else on that floor.
       </p>
     </div>
+    <script src="/theme.js"></script>
   </body>
 </html>
