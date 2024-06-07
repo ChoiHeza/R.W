@@ -7,7 +7,17 @@
     <title>8.10 Long Gone</title>
   </head>
   <body>
-    <div class="content">
+    <div class="buttons">
+      <!-- day theme button -->
+      <button class="theme-button" type="button" onclick="turnDay()">
+        Day
+      </button>
+      <!-- night theme button -->
+      <button class="theme-button" type="button" onclick="turnNight()">
+        Night
+      </button>
+    </div>
+    <div id="content-story" class="content">
       <p class="outfit">
         Outfit: Grey-blue suit and blue plaid button up;
         <i>looked extra fine</i>
@@ -175,5 +185,6 @@
         sighed and shook your head giving up.
       </p>
     </div>
+    <script src="/theme.js"></script>
   </body>
 </html>
