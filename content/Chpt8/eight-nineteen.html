@@ -7,7 +7,17 @@
     <title>8.19 Habeas Corpse</title>
   </head>
   <body>
-    <div class="content">
+    <div class="buttons">
+      <!-- day theme button -->
+      <button class="theme-button" type="button" onclick="turnDay()">
+        Day
+      </button>
+      <!-- night theme button -->
+      <button class="theme-button" type="button" onclick="turnNight()">
+        Night
+      </button>
+    </div>
+    <div id="content-story" class="content">
       <p class="outfit">
         Outfit: Grey blazer, light blue button up, khaki slacks and brown belt
         and shoes
@@ -511,5 +521,6 @@
         inside.
       </p>
     </div>
+    <script src="/theme.js"></script>
   </body>
 </html>
