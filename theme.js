@@ -3,7 +3,7 @@
 const themeButton = document.querySelectorAll(".theme-button");
 
 //TODO For later when changing link styles for night theme
-const linkButton = document.querySelectorAll("a");
+// const linkButton = document.querySelectorAll("a");
 
 //~ DAY THEME FUNCTION
 function turnDay() {
